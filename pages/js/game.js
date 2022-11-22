@@ -7,12 +7,12 @@ const characters = [
   'marge',
   'bart',
   'lisa',
-  'gato e cachorro',
+  'gato-e-cachorro',
   'moe',
   'maggie',
   'barney',
-  'simpsons',
-  'homeremarge',
+  'nelson',
+  'Burns',
 ];
 
 const createElement = (tag, className) => {
@@ -88,7 +88,9 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroundImage = `url('./img${character}.png')`;
+
+
+  front.style.backgroundImage = `url('./img/${character}.jpg')`;
 
   card.appendChild(front);
   card.appendChild(back);
