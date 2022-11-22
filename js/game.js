@@ -90,7 +90,7 @@ const createCard = (character) => {
 
 
 
-  front.style.backgroundImage = `url('./img/${character}.jpg')`;
+  front.style.backgroundImage = `url('../img/${character}.jpg')`;
 
   card.appendChild(front);
   card.appendChild(back);
